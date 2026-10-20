@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Ошибка сервера — YaCut{% endblock %}
+
+{% block content %}
+<h1 class="text-center">Что-то пошло не так</h1>
+<p class="text-center my-4">
+  Не удалось обработать запрос. Попробуйте ещё раз чуть позже.
+</p>
+<p class="text-center">
+  <a href="{{ url_for('index_view') }}">На главную</a>
+</p>
+{% endblock %}

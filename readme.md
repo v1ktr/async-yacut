@@ -45,6 +45,7 @@ FLASK_APP=yacut
 FLASK_ENV=development
 SECRET_KEY=your_secret_key
 DB=sqlite:///db.sqlite3
+DISK_TOKEN=your_disk_token
 ```
 
 Создать базу данных и применить миграции:
